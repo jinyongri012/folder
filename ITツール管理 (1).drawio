@@ -1,6 +1,6 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.15 Chrome/134.0.6998.205 Electron/35.2.1 Safari/537.36" version="26.2.15">
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
   <diagram name="ページ1" id="hIIu3prC3pXuSRhFtJ6u">
-    <mxGraphModel dx="4773" dy="2032" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4607" dy="2530" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -729,7 +729,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="BOvstGQZ6OXHIPV8BzA--729" value="git checkout -b feature/auth&#xa;【意味】新しいブランチ作成・切り替え" style="curved=1;endArrow=block;rounded=0;" parent="FoNZntJrec7KieldhVJD-46" source="BOvstGQZ6OXHIPV8BzA--700" target="BOvstGQZ6OXHIPV8BzA--700" edge="1">
+        <mxCell id="BOvstGQZ6OXHIPV8BzA--729" value="git checkout -b feature/auth　（feature/authはブランチ名）&#xa;【意味】新しいブランチ作成・切り替え" style="curved=1;endArrow=block;rounded=0;" parent="FoNZntJrec7KieldhVJD-46" source="BOvstGQZ6OXHIPV8BzA--700" target="BOvstGQZ6OXHIPV8BzA--700" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="268" y="1691" />
@@ -737,7 +737,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="BOvstGQZ6OXHIPV8BzA--730" value="auth.js編集・実装" style="curved=1;endArrow=block;rounded=0;" parent="FoNZntJrec7KieldhVJD-46" source="BOvstGQZ6OXHIPV8BzA--700" target="BOvstGQZ6OXHIPV8BzA--700" edge="1">
+        <mxCell id="BOvstGQZ6OXHIPV8BzA--730" value="auth.js編集・実装　（auth.jsは一例）" style="curved=1;endArrow=block;rounded=0;" parent="FoNZntJrec7KieldhVJD-46" source="BOvstGQZ6OXHIPV8BzA--700" target="BOvstGQZ6OXHIPV8BzA--700" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="268" y="1777" />
@@ -769,7 +769,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="BOvstGQZ6OXHIPV8BzA--734" value="git checkout -b feature/ui&#xa;【意味】新しいブランチ作成・切り替え" style="curved=1;endArrow=block;rounded=0;" parent="FoNZntJrec7KieldhVJD-46" source="BOvstGQZ6OXHIPV8BzA--701" target="BOvstGQZ6OXHIPV8BzA--701" edge="1">
+        <mxCell id="BOvstGQZ6OXHIPV8BzA--734" value="git checkout -b feature/ui　（feature/uiはブランチ名）&#xa;【意味】新しいブランチ作成・切り替え" style="curved=1;endArrow=block;rounded=0;" parent="FoNZntJrec7KieldhVJD-46" source="BOvstGQZ6OXHIPV8BzA--701" target="BOvstGQZ6OXHIPV8BzA--701" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="488" y="2353" />
@@ -785,12 +785,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="BOvstGQZ6OXHIPV8BzA--736" value="git add ui.js&#xa;【意味】変更をステージング" style="curved=1;endArrow=block;rounded=0;" parent="FoNZntJrec7KieldhVJD-46" source="BOvstGQZ6OXHIPV8BzA--701" target="BOvstGQZ6OXHIPV8BzA--701" edge="1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="BOvstGQZ6OXHIPV8BzA--736" value="git add ui.js　（ui.jsは一例）&#xa;【意味】変更をステージング" style="curved=1;endArrow=block;rounded=0;" parent="FoNZntJrec7KieldhVJD-46" source="BOvstGQZ6OXHIPV8BzA--701" target="BOvstGQZ6OXHIPV8BzA--701" edge="1">
+          <mxGeometry x="0.0023" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="488" y="2548" />
               <mxPoint x="488" y="2578" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BOvstGQZ6OXHIPV8BzA--737" value="git commit -m &quot;UI機能実装&quot;&#xa;【意味】コミット作成" style="curved=1;endArrow=block;rounded=0;" parent="FoNZntJrec7KieldhVJD-46" source="BOvstGQZ6OXHIPV8BzA--701" target="BOvstGQZ6OXHIPV8BzA--701" edge="1">
@@ -1271,7 +1272,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uRefy-npWvNNXH-Qcx8x-15" value="4. コード作成&#xa;コード書く" style="curved=1;endArrow=block;rounded=0;" parent="FoNZntJrec7KieldhVJD-46" edge="1">
+        <mxCell id="uRefy-npWvNNXH-Qcx8x-15" value="4. コード作成（ファイル作成、コード修正）&#xa;コード書く" style="curved=1;endArrow=block;rounded=0;" parent="FoNZntJrec7KieldhVJD-46" edge="1">
           <mxGeometry x="0.0021" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="269" y="493" />
@@ -1667,9 +1668,9 @@
         <mxCell id="FoNZntJrec7KieldhVJD-92" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;DevOpsでのpull request(レビュー・承認プロセス)&lt;/font&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;方法&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="FoNZntJrec7KieldhVJD-93" vertex="1">
           <mxGeometry x="30" y="49" width="684" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="7UQ6B9o8rUfwM4OU21a2-382" value="　練習用ﾌﾛｰ" style="swimlane;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;align=left;" parent="1" vertex="1" collapsed="1">
-          <mxGeometry x="-2151" y="-32" width="101" height="26" as="geometry">
-            <mxRectangle x="-2211" y="45" width="1641" height="7083" as="alternateBounds" />
+        <mxCell id="7UQ6B9o8rUfwM4OU21a2-382" value="　練習用ﾌﾛｰ" style="swimlane;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="-2151" y="-32" width="1641" height="7083" as="geometry">
+            <mxRectangle x="-2151" y="-32" width="101" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7UQ6B9o8rUfwM4OU21a2-270" value="🚀 DevOps作業開始&#xa;（Git未導入の状態）" style="whiteSpace=wrap;strokeWidth=2;" parent="7UQ6B9o8rUfwM4OU21a2-382" vertex="1">
@@ -1965,9 +1966,9 @@
         <mxCell id="7UQ6B9o8rUfwM4OU21a2-396" value="&lt;span style=&quot;font-weight: 700; text-align: center;&quot;&gt;IDEのターミナル画面でGitコマンド入力する方法&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="7UQ6B9o8rUfwM4OU21a2-395" vertex="1">
           <mxGeometry x="9" y="34" width="684" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="Hoh-aRrKv2vNIvtBi-v6-31" value="　　git with VBA" style="swimlane;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="-2528" y="217" width="1618.5" height="672" as="geometry">
-            <mxRectangle x="-2528" y="217" width="124" height="26" as="alternateBounds" />
+        <mxCell id="Hoh-aRrKv2vNIvtBi-v6-31" value="　　git with VBA" style="swimlane;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;align=left;" parent="1" vertex="1" collapsed="1">
+          <mxGeometry x="-2528" y="217" width="124" height="26" as="geometry">
+            <mxRectangle x="-2528" y="217" width="1618.5" height="672" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_-SlksEBNIGcvBbDvPS4-24" value="VBAのソースコード管理方法" style="shape=table;childLayout=tableLayout;startSize=40;collapsible=0;recursiveResize=0;expand=0;fontSize=16;fontStyle=1" parent="Hoh-aRrKv2vNIvtBi-v6-31" vertex="1">
